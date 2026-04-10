@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+
+  <!-- Basic window settings -->
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+
+  <!-- NetBeans internal config (reduced) -->
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+
+  <!-- Layout -->
+  <Layout>
+    <!-- Horizontal -->
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0">
+
+        <Group type="102">
+          <EmptySpace pref="60"/>
+
+          <Group type="103" groupAlignment="0">
+
+            <!-- Title -->
+            <Component id="lblTitle"/>
+
+            <!-- Form fields -->
+            <Group type="102">
+              <Component id="lblNome"/>
+              <EmptySpace/>
+              <Component id="txtNome" pref="250"/>
+            </Group>
+
+            <Group type="102">
+              <Component id="lblIdade"/>
+              <EmptySpace/>
+              <Component id="txtIdade" pref="250"/>
+            </Group>
+
+            <!-- Options -->
+            <Component id="chkPromo"/>
+            <Component id="chkTermos"/>
+
+            <!-- Button -->
+            <Group type="102">
+              <EmptySpace pref="100"/>
+              <Component id="btnCadastrar"/>
+            </Group>
+
+            <!-- Result -->
+            <Component id="lblResultado"/>
+
+          </Group>
+
+          <EmptySpace pref="60"/>
+        </Group>
+
+      </Group>
+    </DimensionLayout>
+
+    <!-- Vertical -->
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0">
+
+        <Group type="102">
+
+          <EmptySpace/>
+          <Component id="lblTitle"/>
+
+          <EmptySpace type="separate"/>
+
+          <Group type="103" groupAlignment="3">
+            <Component id="lblNome"/>
+            <Component id="txtNome"/>
+          </Group>
+
+          <EmptySpace/>
+
+          <Group type="103" groupAlignment="3">
+            <Component id="lblIdade"/>
+            <Component id="txtIdade"/>
+          </Group>
+
+          <EmptySpace/>
+
+          <Component id="chkPromo"/>
+          <Component id="chkTermos"/>
+
+          <EmptySpace type="separate"/>
+
+          <Component id="btnCadastrar"/>
+
+          <EmptySpace pref="30"/>
+
+          <Component id="lblResultado"/>
+
+          <EmptySpace pref="40"/>
+
+        </Group>
+
+      </Group>
+    </DimensionLayout>
+  </Layout>
+
+  <!-- Components -->
+  <SubComponents>
+
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font">
+          <Font name="Segoe UI" size="32" style="1"/>
+        </Property>
+        <Property name="text" value="Cadastro da Loja"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="lblNome">
+      <Properties>
+        <Property name="text" value="Nome:"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="lblIdade">
+      <Properties>
+        <Property name="text" value="Idade:"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JTextField" name="txtNome"/>
+
+    <Component class="javax.swing.JTextField" name="txtIdade"/>
+
+    <Component class="javax.swing.JCheckBox" name="chkPromo">
+      <Properties>
+        <Property name="text" value="Receber promoções"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JCheckBox" name="chkTermos">
+      <Properties>
+        <Property name="text" value="Aceito os termos"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JButton" name="btnCadastrar">
+      <Properties>
+        <Property name="text" value="Cadastrar"/>
+      </Properties>
+    </Component>
+
+    <Component class="javax.swing.JLabel" name="lblResultado">
+      <Properties>
+        <Property name="foreground">
+          <Color red="0" green="150" blue="0" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+
+  </SubComponents>
+</Form>
